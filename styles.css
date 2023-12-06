@@ -1,0 +1,55 @@
+body {
+    font-family: 'Sofia Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    font-family: 'Sansdiego Style', sans-serif;
+    background-color: bisque;
+    color: rgb(8, 8, 5);
+    font-size: x-large;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: rgb(243, 174, 90);
+    color: rgb(4, 4, 0);
+    padding: 0.5em;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    font-family: Trocchi, sans-serif;
+    font-size: large;
+    text-decoration: none;
+    color: rgb(0, 4, 4);
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.feature, .content {
+    flex: 1;
+    margin: 0.5em;
+}
+
+footer {
+    background-color: bisque;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1em 0;
+}
